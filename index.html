@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>APA Citation</title>
+    </head>
+    <body>
+        <header>
+            <h2>APA Citation Generator</h2>
+            <p>I'm already making most of the citations for these papers manually anyways, don't make me watch an ad every single time</p>
+            <!--I guess I could just memorize how to make an APA citation too,,,,,, oops-->
+        </header>
+             <div>    
+                <form>
+                <!--Authors, with an option to add authors-->
+                <h4>Authors</h4>
+                <label for="firstName" id="firstName" name="firstName">First name: </label>
+                <input type="text" id="firstName" name="firstName">
+                <label for="middleName" id = "middleName" name="middleName">M. </label> 
+                <input type="text" id="middleName" name="middleName">
+                <label for="lastName" id="lastName" name="lastName">Last Name: </label>
+                <input type="text" id="lastName" name="lastName">
+                </br>
+                <div>
+                    <button type="button">Add Author</button>
+                </div>
+
+                <!--Title-->
+                <label for="title" id="title" name="title">Title: </label>
+                <input type="text" id="title" name="title">
+                </br>
+
+                <!--Publication Date-->
+                <label for="date" id="date" name="date">Publication Date: </label>
+                <input type="date" id="date" name="date">
+                <br>
+
+                <!--Publisher/Journal it was published in-->
+                <label for="publisher" id="publisher" name="publisher">Journal: </label>
+                <input type="text" id="publisher" name="publisher">
+
+
+                <!--Volume and Issue Number-->
+                <label for="vol" id="vol" name="vol">Volume: </label>
+                <input type="text" id="vol" name="vol">
+
+                <label for="num" id="num" name="num">Issue No. </label>
+                <input type="text" id="num" name="num">
+                <br>
+                <!--Pages-->
+                <label for="pStart" id="pStart" name="pStart">Pages Cited: </label>
+                <input type="text" id="pStart" name="pStart"> to 
+                <label for="pEnd" id="pEnd" name="pEnd"></label>
+                <input type="text" id="pEnd" name="pEnd">
+                <br>
+
+                <!--doi:-->
+                <label for="doi" id="doi" name="doi">doi: </label>
+                <input type="text" id="doi" name="doi">
+                <br>
+
+                <!--Submit button-->
+                <div>
+                    <button type="button">Generate citation</button>
+                </div>
+
+                 </form> 
+            </div>
+
+            <div>
+                <h3>Output</h3>
+            </div>
+        <footer>
+            <p>this thing was made by crystal song</p>
+        </footer>
+
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+    </body>
+</html>
